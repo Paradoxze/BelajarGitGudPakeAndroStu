@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2BABAF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Program Activity"
+        android:textSize="30sp"
+        android:textColor="#1C1C1E"
+        android:layout_gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/BtnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9CE8E2"
+        android:text="Activity Login" />
+
+
+    <Button
+        android:id="@+id/BtnProfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#89DCD2"
+        android:text="Activity Profile"/>
+
+    <Button
+        android:id="@+id/BtnKeluar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#58CFBD"
+        android:text="Keluar APP"/>
+
+
+</LinearLayout>
